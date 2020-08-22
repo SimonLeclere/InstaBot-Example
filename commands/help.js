@@ -12,7 +12,7 @@ module.exports = {
 
         else {
             const name = message.args[0].toLowerCase();
-		    let command = client.commands.get(name) || client.commands.find(c => c.aliases && c.aliases.includes(name));
+	    let command = client.commands.get(name) || client.commands.find(c => c.aliases && c.aliases.includes(name));
             message.author.send(`Nom : ${command.name}\n\nUtilisation : ${client.config.prefix + command.name + ' ' + command.usage}\n\nDescription : ${command.description}`)
         }
 
