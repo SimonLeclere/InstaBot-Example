@@ -1,5 +1,5 @@
 module.exports = {
-	name: 'help',
+    name: 'help',
     description: 'Permet d\'obtenir la liste des commandes ou bien des informations à propos d\'une commande',
     usage: '[commande]',
     aliases: ['aide'],
